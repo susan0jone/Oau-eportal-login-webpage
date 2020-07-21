@@ -1,0 +1,245 @@
+body{
+    background-color: white;
+    height: 1300px;
+    
+}
+.firstbox{
+    margin-top: -50px;
+    margin-left: -10px;
+    height:200px;
+    width: 1265px;
+    background-color: #a1acbe;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    float: left;
+}
+.firstbox p{
+    padding-top: 20px;
+    font-size: 280%;
+    color: rgb(0, 40, 114);
+}
+ul{
+    clear: both;
+    background: linear-gradient(90deg,rgb(0, 49, 139) ,  rgb(0, 40, 114));
+}
+ul li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+ul li a{
+    font-size: 20px;
+    padding-right: 40px;
+    color: rgb(238, 178, 66);
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.greeting{
+    float: right;
+    margin-left: 500px;
+    color: rgb(238, 178, 66);
+    font-size: 15px;
+
+}
+
+.thirdbox{
+    height: 560px;
+    width: 1150px;
+    margin-top: 50px;
+    background-color:rgb(226, 218, 218);
+}
+.inputbox{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    transform:translate(15% , 15%) ;
+    background-color: white;
+    z-index: 4;
+}
+.inputbox span{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    position: relative;
+    top: 22px;
+    background-color: white;
+    display: inline-block;
+    width: 160px;
+   
+}
+input{
+    height: 40px;
+    width: 250px;
+    padding-left: 30px;
+    position: relative;
+    right: 25px;
+    margin-bottom: 15px;
+    background-color: rgb(226, 218, 218);
+    border:rgb(226, 218, 218) ;
+    z-index: 2;
+}
+.text{
+    margin-top: 30px;
+}
+#year{
+ margin-left: 12px;
+}
+#semester{
+    margin-left: 12px;
+}
+.submit{
+    border-radius: 20px;
+    width: 120px;
+    padding-right: 30px;
+    position: relative;
+    margin-left: 50px;
+    background-color:  rgb(238, 178, 66);
+    color: grey;
+    border:  rgb(238, 178, 66);
+    font-size: 15px;
+    font-weight: bold;
+}
+.inputbox a{
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+.fourthbox{
+    background-color: black;
+    padding-top: 15px;
+    padding-left: 60px;
+    height: 250px;
+    width: 1205px;
+    margin-left: -10px;
+
+}
+.firstgroup{
+    width: 400px;
+}
+.secondgroup{
+    width: 400px;
+    position: relative;
+    left:440px;
+    top:-225px;
+
+}
+.fourthbox a{
+    text-decoration: none;
+    color: rgb(47, 136, 172);
+}
+.fourthbox a:hover{
+    text-decoration: underline;
+    color: rgba(47, 137, 172, 0.6);
+
+}
+.copyright{
+    color: white;
+    padding-top: 25px;
+}
+i{
+    z-index: 3;
+    position: relative;
+    color: grey;
+   
+}
+.fifthbox{
+    background-color:white;
+    padding-top: 10px;
+    width: 700px;
+    height: 75px;
+    position: relative;
+    top: -150px;
+
+}
+.sixthbox{
+    height: 130px;
+    width: 680px;
+    border: solid 1px tomato;
+}
+.sixthbox p{
+    color: rgb(12, 138, 138);
+    font-weight: 900;
+    background-color: white;
+    width: 150px;
+    position: relative;
+    left: -200px;
+    top:-25px;
+}
+.sixthbox span{
+    position: relative;
+    left: 180px;
+    top: 70px;
+    color: tomato;
+    background-color: white;
+    
+}
+span img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:-64px;
+    left: -0.01%;
+    left: 25px;
+
+
+   
+}
+.images{
+    width: 2px;
+    height: 2px;
+    position: absolute;
+}
+.firstimage{
+    position: relative;
+    top: -80px;
+    left: -20px;
+}
+.secondimage{
+    position: relative;
+    left: 120px;
+    top: -280px;
+}
+.thirdimage{
+    position: relative;
+    left: 250px;
+    top: -480px;
+}
+
+.box{
+    background-color: green;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    left: 470px;
+    top: 35px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.fifthimage{
+    position: relative;
+    left: 90px;
+    background-color: black;
+    height: 50px;
+    width: 80px;
+    top: -35.8px;
+}
+.sixthimage{
+    position: relative;
+    left: 180px;
+    top: -86px;
+    background-color: skyblue;
+    height: 50px;
+    width: 80px;
+}
+
+
+
